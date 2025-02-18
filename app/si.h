@@ -15,4 +15,6 @@ void SI_deinit();
 void Key_FM(KeyboardState kbds) ;
 void HandleUserInput() ;
 void SI4732_Main();
+void setVolume(int volume);
+void SetState(int state);
 #endif /* end of include guard: APP_SI_H */
